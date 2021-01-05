@@ -1,0 +1,11 @@
+# Global (should be in global file of your system)
+*~
+.DS_Store
+
+# IDE specific
+.idea
+.vscode
+
+# Dependency managers (for this setup just composer)
+vendor
+node_modules
