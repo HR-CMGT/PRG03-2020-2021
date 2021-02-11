@@ -1,0 +1,38 @@
+{
+  "games": [
+    {
+      "title": "GTA",
+      "genre": "Action",
+      "specs": {
+        "offline_multiplayer": false,
+        "online_multiplayer": true
+      },
+      "price": {
+        "currency": "euro",
+        "value": 45
+      },
+      "console": [
+        "PS4",
+        "XBOX One"
+      ]
+    },
+    {
+      "title": "FIFA 2021",
+      "genre": "football",
+      "specs": {
+        "offline_multiplayer": true,
+        "online_multiplayer": true
+      },
+      "price": {
+        "currency": "euro",
+        "value": 60
+      },
+      "console": [
+        "PC",
+        "PS4",
+        "XBOX One",
+        "Switch"
+      ]
+    }
+  ]
+}

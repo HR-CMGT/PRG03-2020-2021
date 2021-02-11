@@ -1,0 +1,19 @@
+{
+  "author": "Antwan van der Mooren",
+  "tracks": [
+    {
+      "title": "You are my best friend",
+      "artiest": "queen ",
+      "album": "A night at the Opera",
+      "duur": "2:58",
+      "prijs": 0.99
+    },
+    {
+      "title": "Rocky Road",
+      "artiest": "Newworldson",
+      "album": "newworldson",
+      "duur": "5:35",
+      "prijs": 0.99
+    }
+  ]
+}

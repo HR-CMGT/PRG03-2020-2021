@@ -1,9 +1,9 @@
 # PRG03 Week 2
 
 - [Bekijk het resultaat van de 'hands-on' oefening uit de les van week 2](./hands-on/). Heb je deze basics onder de knie?
-- Maak de opdrachten uit de map ***Functions & Objects*** & ***DOM*** in de JetBrains EDU cursus in WebStorm als voorbereiding
-  op de les van week 3.
-- Maak ***Opdracht 2*** uit het assignment uit de [Hoofdopdracht](../assignment)
+- Maak de opdrachten uit de mappen "Functions & Objects" & "DOM" in de JetBrains EDU cursus in WebStorm als
+  voorbereiding op de volgende les.
+- Maak **Opdracht 2** uit het assignment uit de [Hoofdopdracht](../assignment)
 
 ## Extra oefeningen
 

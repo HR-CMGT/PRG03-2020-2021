@@ -1,0 +1,60 @@
+{
+  "collection_from": "Antwan van der Mooren",
+  "artists": [
+    {
+      "name": "Joe Satriani",
+      "albums": [
+        {
+          "title": "Surfing With the Alien",
+          "year": 1987,
+          "total_songs": 13,
+          "songs": [
+            {
+              "number": 1,
+              "title": "title 1"
+            },
+            {
+              "number": 2,
+              "title": "title 3"
+            }
+          ]
+        },
+        {
+          "title": "Unstoppable Momentum",
+          "year": 2013,
+          "total_songs": 12,
+          "songs": [
+            {
+              "number": 1,
+              "title": "title 1"
+            },
+            {
+              "number": 2,
+              "title": "title 3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dream Theater",
+      "albums": [
+        {
+          "title": "Systematic Chaos",
+          "year": 2007,
+          "total_songs": 8,
+          "songs": [
+            {
+              "number": 1,
+              "title": "title 1"
+            },
+            {
+              "number": 2,
+              "title": "title 3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
