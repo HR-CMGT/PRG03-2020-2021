@@ -21,7 +21,7 @@ http://localhost/prg03/test/index.html
 
 ⚠️ Let op! Open je project nooit via `file://c:/mijn documenten/index.html`!
 
-## Webstorm Live Reload
+## Webstorm Localhost
 
 In webstorm kan je een ***quick preview*** openen met de browser buttons rechtsbovenin beeld.
 
@@ -43,9 +43,6 @@ Maak een nieuw `style.css` en `script.js` bestand en laad deze in je html:
     <script src="./js/script.js"></script>
 </body>
 ```
-🤯 Webstorm update automatisch je HTML en CSS in het localhost adres. Dit is handig tijdens development. 
-
-[Als je ***javascript*** ook automatisch wil updaten kan je dat aanzetten via settings.](https://www.jetbrains.com/help/webstorm/live-editing.html)
 
 ## Browser console
 
@@ -61,27 +58,27 @@ Klik met rechts in het browservenster en kies **inspect**. Open de console tab.
 
 🖖 Deze instellingen zijn optioneel! Kijk zelf wat je een prettige manier vindt om in je code editor te werken.
 
-### Disable function parameter hints 
+<br>
+
+## Disable function parameter hints 
 
 ![disable](./images/disable.png)
 
-### Zoom met muiswiel
+<br>
+
+## Zoom met muiswiel
 
 ![zoom](./images/mouse.png)
 
-### Javascript live update
+<br>
 
-- [live update settings](https://www.jetbrains.com/help/webstorm/live-editing.html)
-
-### Code font ligatures
+## Code font ligatures
 
 ![ligatures](./images/ligatures.png)
 
-### Wel of geen puntkomma aan het einde van een regel
+<br>
 
-![semicolon](./images/semicolon.png)
-
-### Cleaner code view
+## Cleaner code view
 
 - Toon ***Project Files*** in plaats van ***Project***
 - Verberg vensters die je niet gebruikt onder ***View > Appearance***
@@ -90,9 +87,13 @@ Klik met rechts in het browservenster en kies **inspect**. Open de console tab.
 
 ![cleanview](./images/cleanview.png)
 
-### Weg met die verticale lijn
+<br>
+
+## Weg met die verticale lijn
 
 ![vertical](./images/verticalline.png)
+
+<br>
 
 ## Material UI theme
 
@@ -101,3 +102,23 @@ Installeer de Google Material UI theme via Settings > Plugins
 ![material](./images/material.png)
 
 https://plugins.jetbrains.com/plugin/8006-material-theme-ui
+
+<br>
+
+## Live update
+
+Als je je updates in HTML, CSS, Javascript live in de browser wil zien, zonder steeds F5 in te drukken, dan kan je via de terminal een `live-server` installeren:
+
+```bash
+sudo npm install -g live-server
+```
+Nu kan je via de terminal in je projectmap een server starten die **live** je updates laat zien:
+```bash
+live-server
+```
+
+## Puntkomma aan einde van de regel
+
+Deze voorkeur kan je instellen. Wil je met of zonder puntkomma's werken?
+
+![semicolon](./images/semicolon.png)

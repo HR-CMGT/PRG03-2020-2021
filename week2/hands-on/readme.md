@@ -10,14 +10,19 @@ We gaan kijken naar de javascript principes uit Programmeren 1.
 
 # Javascript
 
+[Bekijk hier het resultaat van les 2](./js/main.js)
+
 ## Variabelen en data types
 
+Number, String, Boolean, Array
+
 ```javascript
-let a = 4
-let b = a * 2
-let c = 10
-let lessonComplete = false
-const artist = "Babymetal"
+let a = 4                       // number
+let b = a * 2                   // number
+let c = 10                      // number
+let lessonComplete = false      // boolean
+const artist = "Gorillaz"       // string
+let tracks = ["On Melancholy Hill", "Dirty Harry", "Rhinestone eyes"]; // array
 ```
 Gebruik **string templates** met backtick en `${}` om variabelen en strings te combineren.
 
@@ -38,21 +43,20 @@ if(lessonComplete) {
 } else {
     console.log("De les is nog niet afgelopen")
 }
-if(artist == "Babymetal" || artist == "Bridear") {
-    console.log("Sugooiiiiii")
+if(artist === "Gorillaz" || artist === "BabyMetal") {
+    console.log("Award rewarded!")
 }
-if (artist != "Babymetal") {
+if (artist !== "Babymetal") {
     console.log("Boring!")
 }
 ```
 ## Arrays
 ```javascript
-let tracks = ["Chocolate", "Karate", "Catch me if you can"]
-console.log(`Er zijn ${tracks.length} tracks`)
-console.log(`Track 1 is ${tracks[0]}`)
+console.log(`Er zijn ${tracks.length} tracks`);
+console.log(`Track 1 is ${tracks[0]}`);
 
-tracks.push("Yabai")
-tracks[1] = "Sugoi"
+tracks.push("Feel Good Inc");
+tracks[1] = "Dirty Harry";
 ```
 
 ## FOR Loops
@@ -60,6 +64,10 @@ tracks[1] = "Sugoi"
 ```javascript
 for(let i = 0; i < tracks.length; i++) {
     console.log(tracks[i])
+}
+// for of
+for(let track of tracks){
+    console.log(track)
 }
 ```
 
@@ -71,7 +79,10 @@ function logArtist() {
 }
 
 logArtist()
+```
+### Function arguments
 
+```javascript
 function logTrack(tracknumber){
     console.log(tracks[tracknumber])
 }
@@ -82,3 +93,5 @@ logTrack(1)
 
 <br>
 <br>
+
+Bekijk [main.js](./js/main.js) voor een uitgebreid voorbeeld.
