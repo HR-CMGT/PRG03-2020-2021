@@ -24,10 +24,12 @@ function checkGrammy() {
 }
 
 function logTracks() {
-    //for (let counter = 0; counter < tracks.length; counter++) {
-    //    console.log(`${counter} is ${tracks[counter]}`);
-    //}
+    // counter telt op
+    for (let counter = 0; counter < tracks.length; counter++) {
+        console.log(`${counter} is ${tracks[counter]}`);
+    }
 
+    // for..of loop variant heeft geen counter nodig
     for(let track of tracks) {
         console.log(track)
     }
