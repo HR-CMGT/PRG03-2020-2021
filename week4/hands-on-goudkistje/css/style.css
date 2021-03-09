@@ -1,0 +1,32 @@
+body {
+    width: 420px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+input, button {
+    width: 200px;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+}
+
+#alert button {
+    width: 75px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+input[type="submit"] {
+    padding: 5px;
+    width: 205px;
+}
+
+.playing-card {
+    float: left;
+    margin: 5px;
+    width: 200px;
+}
