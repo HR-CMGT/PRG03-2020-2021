@@ -1,9 +1,18 @@
+/**
+ * De code die hier staat is gemaakt samen in de les. De comments zijn dus hier en daar ook Nederlands om het
+ * handig te maken tijdens de toelichting. Kijk in de map 'goudkistje' voor de totale uitwerking waar ook een
+ * reset knop in verwerkt zit.
+ */
+
 window.addEventListener('load', init);
 
 //Global variables
 let images = ['img/ballonnen.png', 'img/cars.png', 'img/goudkistje.png', 'img/planes.png'];
+let correctAnswer = 'img/goudkistje.png';
 let currentClickedImage;
 let playField;
+let guessNumber;
+let alert;
 
 /**
  * Initialize after the DOM is ready
@@ -12,6 +21,12 @@ function init()
 {
     playField = document.getElementById('playing-field');
     playField.addEventListener('click', playingFieldClickHandler);
+
+    let form = document.getElementById('play-form');
+    form.addEventListener('submit', formSubmitHandler);
+
+    guessNumber = document.getElementById('guess-number');
+    alert = document.getElementById('alert');
 
     createPlayField();
 }
@@ -76,7 +91,15 @@ function playingFieldClickHandler(e)
  */
 function formSubmitHandler(e)
 {
+    //Voorkom het versturen van het formulier!
+    e.preventDefault();
 
+    //Controleer of ingevulde antwoord hetzelfde is als het juiste antwoord
+    if (images[guessNumber.value] == correctAnswer) {
+        writeFeedbackMessage('Topper!');
+    } else {
+        writeFeedbackMessage('Helaas...');
+    }
 }
 
 /**
@@ -86,7 +109,7 @@ function formSubmitHandler(e)
  */
 function writeFeedbackMessage(text)
 {
-
+    alert.innerText = text;
 }
 
 /**
