@@ -9,7 +9,7 @@ We gaan een TODO list maken, om nog een keer te oefenen met DOM manipulatie en e
 - `querySelector`
 - `document.createElement` en `document.appendChild`
 - `addEventListener`
-- `localStorage` en `JSON`
+- `localStorage` en `JSON` [zie ook de documentatie](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
 
 <br>
 <br>
