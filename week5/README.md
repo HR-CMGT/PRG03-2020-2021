@@ -2,7 +2,7 @@
 
 ## Hands-on
 
-We gaan een TODO list maken, om nog een keer te oefenen met DOM manipulatie en event listeners. Ook leren we localStorage te gebruiken met JSON. [De startbestanden vind je hier.](./hands-on)
+We gaan een TODO list maken, om nog een keer te oefenen met DOM manipulatie en event listeners. Ook leren we localStorage te gebruiken met JSON. [De startbestanden vind je hier](./hands-on/start) en het [resultaat van de workshop staat hier](./hands-on/finished)
 
 **Onderwerpen:**
 
