@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Open+Sans&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.2em;
+}
+
+h1, h2{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-family: 'Bungee Shade', cursive;
+    font-size: 30px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+main{
+    display: block;
+    max-width: 600px;
+    background: #fff;
+    float: none;
+    margin: 50px auto;
+}
+
+#calendar{
+    list-style:none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#calendar li{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgb(1, 147, 146);
+    box-shadow: 0 8px 6px -6px #999999;
+}
+
+#calendar li.error{
+    display: block;
+    grid-template-columns: auto;
+    background: #ff0000;
+    color: #fff;
+}
+
+date, with, phone, where, notes{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+date{
+    text-align: center;
+    font-weight: bold;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    place-self: center;
+}
+
+
+with::before, phone::before, where::before{
+    font-weight: bold;
+    margin: 0px 5px 0px 0px;
+}
+
+with::before{
+    content: 'Met: ';
+}
+
+phone::before{
+    content: 'Tel: ';
+}
+
+where::before{
+    content: 'Adres: ';
+}
