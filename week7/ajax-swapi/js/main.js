@@ -102,7 +102,7 @@ function movieCardClickHandler(e)
     currentList = createDomElement({tagName: 'ul', attributes: {class: 'actors'}});
     target.parentElement.appendChild(currentList);
 
-    //Get the movie from the global stored data (.find is more elegant than using a custom for loop
+    //Get the movie from the global stored data (.find is more elegant than using a custom for loop)
     let episodeId = parseInt(target.dataset.episodeId);
     let movie = movies.find(function (movie) {
         return movie.episode_id === episodeId;
